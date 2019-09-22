@@ -39,10 +39,10 @@
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                     </padding>
                 </GridPane>
-                <TableView fx:id="tableDepartment" prefHeight="200.0" prefWidth="200.0" tableMenuButtonVisible="true" VBox.vgrow="ALWAYS">
+                <TableView fx:id="tableCategory" prefHeight="200.0" prefWidth="200.0" tableMenuButtonVisible="true" VBox.vgrow="ALWAYS">
                     <columns>
                         <TableColumn fx:id="colID" prefWidth="75.0" text="ID" />
-                        <TableColumn fx:id="colCategory" prefWidth="75.0" text="Category" />
+                        <TableColumn fx:id="colName" prefWidth="75.0" text="Category" />
                     </columns>
                     <VBox.margin>
                         <Insets bottom="5.0" top="5.0" />
